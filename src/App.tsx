@@ -61,7 +61,7 @@ function App() {
             <div className="flex items-center space-x-3">
               <img src="/logo.svg" alt="Meet Action Logo" className="h-12 w-12" />
               <div>
-                <h1 className="text-2xl font-bold text-gray-900">Meet Action</h1>
+                <h1 className="text-2xl font-bold text-gray-900">MeetAction</h1>
                 <p className="text-sm text-gray-600">AI-Powered Action Items From Meetings</p>
               </div>
             </div>
