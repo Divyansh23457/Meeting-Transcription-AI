@@ -99,21 +99,7 @@ export default function ActionItemsList({
                   <option value="medium">Medium Priority</option>
                   <option value="high">High Priority</option>
                 </select>
-                <select
-                  value={newItem.assignedTo?.id || ''}
-                  onChange={(e) => {
-                    const participant = participants.find(p => p.id === e.target.value);
-                    setNewItem({ ...newItem, assignedTo: participant });
-                  }}
-                  className="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                >
-                  <option value="">Unassigned</option>
-                  {participants.map(participant => (
-                    <option key={participant.id} value={participant.id}>
-                      {participant.name}
-                    </option>
-                  ))}
-                </select>
+                
               </div>
               <div className="flex space-x-2">
                 <button

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="248" fill="#4A90E2"/>
+  
+  <!-- Microphone Icon -->
+  <path d="M256 300c33.1 0 60-26.9 60-60V160c0-33.1-26.9-60-60-60s-60 26.9-60 60v80c0 33.1 26.9 60 60 60z" fill="white"/>
+  
+  <!-- Sound Waves -->
+  <path d="M352 220v20c0 52.9-43.1 96-96 96s-96-43.1-96-96v-20h-32v20c0 67.2 54.8 122 122 122v50h-50v32h132v-32h-50v-50c67.2 0 122-54.8 122-122v-20h-32z" fill="white"/>
+  
+  <!-- Text Lines -->
+  <rect x="172" y="380" width="168" height="12" rx="6" fill="white" opacity="0.8"/>
+  <rect x="196" y="404" width="120" height="12" rx="6" fill="white" opacity="0.6"/>
+</svg>

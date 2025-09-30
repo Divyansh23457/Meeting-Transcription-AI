@@ -59,12 +59,10 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="p-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg">
-                <Mic className="h-6 w-6 text-white" />
-              </div>
+              <img src="/logo.svg" alt="Meet Action Logo" className="h-12 w-12" />
               <div>
-                <h1 className="text-2xl font-bold text-gray-900">MeetingFlow</h1>
-                <p className="text-sm text-gray-600">AI-Powered Action Item Management</p>
+                <h1 className="text-2xl font-bold text-gray-900">Meet Action</h1>
+                <p className="text-sm text-gray-600">AI-Powered Action Items From Meetings</p>
               </div>
             </div>
             
@@ -100,7 +98,7 @@ function App() {
                     <Upload className="h-12 w-12 text-blue-600" />
                   </div>
                 </div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">Upload Your Meeting Audio</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-4">Upload Your Meet Recording</h2>
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                   Transform your meeting recordings into organized action items automatically. 
                   Our AI will transcribe, analyze, and extract actionable tasks for your team.
